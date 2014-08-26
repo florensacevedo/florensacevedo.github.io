@@ -1,325 +1,491 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-
-<title>Resume | Florens Acevedo</title>
-<style type="text/css" media="all">
-
-                
-html{
-                        background-color:#444;
-                        padding:0 1em;
-                        }
-                body {
-                        background-color:#FFF;
-                        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-                        font-weight: 300;
-                        text-align: justify;
-                        padding:2em;
-                        margin:2em auto;
-                        border:2px solid #000;
-                        max-width: 50em;
-                        }
-                #address{
-                        text-align:right;
-                        padding-0.5em;
-                        }
-
-                #contact{
-                        text-align:right;
-                        border-bottom:3px double #000;
-                        }
-                .date {
-                        float:left;
-                        font-size:1em;
-                         ;
-                        margin:0 0 0 -11.5em;
-                        text-align:right;
-                        }
-                abbr, acronym{
-                        border-bottom:1px dotted #333;
-                        cursor:help;
-                        }       
-                address{
-                        font-style:italic;
-                        color:#333;
-                        font-size:.9em;
-                        padding-top:0;
-                        margin-top:0;
-                        }
-                relevant{
-                        font-style:italic;
-                        color:#333;
-                        font-size:1em;
-                        }
-                 project{
-                        font-size:.9em;
-                        }
-                   magic{
-                        font-size:.9em;
-                        margin-left:8.5em;
-                        }
-                .content{
-                        width:34em;
-                        margin:0 0 0 13em;
-                        }       
-                .section{
-                        margin: 0;
-                        padding:.5em 0;
-                        }
-                ul{
-                        padding-left:1.2em;
-                        margin-left:.5em;
-                        }
-
-                h1{
-                        font: bold 34px "Century Schoolbook", Georgia, Times, serif;
-                        color: #3C5285;
-                        line-height: 90%;
-                        margin: .2em 0 .4em 0;
-                        letter-spacing: -2px;
-                        padding:.5em 0 0 0;
-                        }
-                h2 {
-                        font-size:1.3em;
-                        letter-spacing: .06em;
-                        border-bottom:1px solid #000;
-                        }
-                .section h3 {
-                        font-size:.9em;
-                        margin-bottom:0;
-                        width:24em;
-                        padding-bottom:0;
-                        }
-        .page {
-                        background-color:#FFF;
-                        font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-                        padding: 2em;
-                        margin: 2em auto;
-                        border:2px solid #000;
-                        max-width: 50em;
-                        }
-        .mylink a{
-                    color:#3C5285;
-                }
-</style>
-
-<style type="text/css" media="print">
-                body {
-                        background-color:#FFF;
-                        border-width:0 0 0 0;
-                        margin:0;
-                        width:100%
-                        }
-
-
-
-</style>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-51109812-1', 'florensacevedo.github.io');
-  ga('send', 'pageview');
-
-</script>
-
+<head>
+	<title>Florens Acevedo</title>
+	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="stylesheet.css"/>
+	<script src="jquery-2.1.1.min.js"></script>
+	<script src="main.js"></script>
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 </head>
 <body>
-<h1>Florens Acevedo</h1>
+	<div class="titlebar large-12 columns">
+		<div class="header small-8 columns">
+			<h1>Florens Acevedo</h1>
+			<div class="navbar">
+				<ul class="button-group">
+					<li><a href="#" class="button active" id="home">home</a></li>
+					<li><a href="#" class="button" id="resume">resume</a></li>
+				</ul>
+				<div class="linkout-container">
+					<div class="linkout"> 
+						<a href="http://www.linkedin.com/in/florensacevedo" target="_blank" style="text-decoration:none;">
+							<svg class="icon" height="24px" id="Layer_1" style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+								<path d="M49.837,48.137V36.425c0-6.274-3.35-9.194-7.816-9.194  c-3.604,0-5.219,1.982-6.119,3.373V27.71h-6.79c0.09,1.917,0,20.428,0,20.428h6.79V36.729c0-0.61,0.044-1.22,0.224-1.657  c0.49-1.219,1.607-2.482,3.482-2.482c2.458,0,3.44,1.873,3.44,4.618v10.929H49.837z M21.959,24.922c2.367,0,3.842-1.569,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.525-3.841,3.528c0,1.962,1.474,3.531,3.753,3.531H21.959z M25.354,48.137V27.71  h-6.789v20.427H25.354z M3,4h60v60H3V4z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#007AB9;"/>
+							</svg>
+							<span class="icon-text"></span>
+						</a>
+					</div>
+					<div class="linkout">
+						<a href="mailto:florence.acevedo@gmail.com">
+							<svg class="icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		 					width="24px" height="24px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+								<path d="M426.655,0H85.345C38.405,0,0,38.392,0,85.329v341.328C0,473.595,38.405,512,85.345,512h341.311
+									C473.625,512,512,473.595,512,426.657V85.329C512,38.392,473.625,0,426.655,0z M128,128h256c4.569,0,9.002,0.981,13.072,2.831
+									L256,295.415L114.928,130.83C118.998,128.982,123.431,128,128,128z M96,352V160c0-0.67,0.028-1.336,0.07-2l93.832,109.471
+									L97.103,360.27C96.381,357.602,96,354.827,96,352z M384,384H128c-2.827,0-5.601-0.381-8.27-1.104l91.059-91.059L256,344.586
+									l45.212-52.747l91.058,91.06C389.6,383.619,386.827,384,384,384z M416,352c0,2.827-0.381,5.6-1.103,8.27l-92.8-92.799L415.93,158
+									c0.042,0.664,0.07,1.33,0.07,2V352z"/>
+							</svg>
+							<span class="icon-text"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="face-container small-4 columns ">
+			<div class="face">
+				<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="120.000000pt" height="120.000000pt" viewBox="0 0 150.000000 150.000000" preserveAspectRatio="xMidYMid meet">
+					<metadata>
+						Created by potrace 1.11, written by Peter Selinger 2001-2013
+					</metadata>
+					<g transform="translate(0.000000,150.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+						<path d="M379 1440 c-24 -33 -47 -60 -51 -60 -4 0 -5 -6 -3 -13 3 -6 -4 -18
+						-16 -25 -25 -16 -37 -8 -19 13 21 25 -1 17 -25 -9 -13 -14 -26 -22 -29 -18
+						-12 11 -25 -22 -19 -47 4 -17 2 -22 -6 -17 -12 8 -44 -18 -35 -27 3 -3 -1 -16
+						-10 -29 -8 -13 -17 -33 -19 -43 -2 -11 -7 -28 -12 -38 -10 -25 2 -34 26 -19
+						18 11 18 11 7 -8 -7 -11 -15 -20 -18 -20 -30 0 -66 -195 -69 -380 -1 -58 -4
+						-123 -6 -145 -11 -87 16 -290 51 -379 6 -17 4 -18 -19 -12 -16 4 -42 0 -67
+						-10 l-40 -16 0 -69 0 -69 158 0 159 0 12 55 c7 30 17 55 22 55 17 0 1 103 -21
+						130 -44 56 -72 112 -88 179 -16 64 -19 70 -39 64 -15 -3 -23 -1 -23 7 0 7 7
+						10 14 7 11 -4 13 -1 9 10 -5 12 -2 15 10 10 11 -4 14 -2 11 8 -3 7 -14 15 -25
+						18 -25 7 -25 27 0 34 22 6 19 22 -11 63 -21 30 -38 127 -20 116 16 -9 15 9 0
+						35 -11 17 -10 22 9 37 16 12 24 32 29 67 3 28 8 57 11 65 4 8 7 20 8 25 0 6 4
+						17 7 25 13 31 15 70 4 70 -6 0 -5 4 3 9 21 14 5 44 -19 36 -12 -4 -20 -2 -20
+						6 0 8 11 10 33 6 26 -4 36 -1 45 14 16 25 15 29 -5 23 -13 -4 -11 0 6 15 13
+						12 32 21 42 21 10 0 19 4 19 9 0 5 14 14 31 20 17 6 33 20 36 31 4 16 13 20
+						41 18 24 -2 36 -8 40 -20 2 -10 13 -18 23 -18 10 0 21 -4 24 -10 3 -5 16 -10
+						27 -10 12 0 36 -11 54 -25 18 -14 37 -25 43 -25 6 0 16 -9 23 -20 7 -11 21
+						-20 31 -20 10 0 20 -7 23 -15 4 -8 14 -15 23 -16 31 -1 63 -58 79 -141 17 -91
+						16 -94 -55 -117 -30 -10 -49 -23 -51 -33 -4 -19 26 -25 43 -9 17 15 85 23 85
+						11 0 -7 -9 -14 -20 -17 -11 -3 -20 -9 -20 -13 0 -7 -53 -30 -68 -30 -2 0 2 8
+						9 18 11 14 9 13 -9 -2 -12 -11 -20 -21 -17 -24 3 -3 0 -11 -6 -19 -9 -10 -6
+						-13 17 -12 16 0 23 3 16 6 -10 4 -10 8 -1 19 18 22 32 16 27 -11 -4 -17 0 -26
+						12 -30 9 -3 26 -14 38 -26 22 -20 22 -24 16 -186 -5 -112 -12 -181 -23 -212
+						-20 -55 -41 -66 -41 -21 0 27 -3 30 -20 25 -19 -6 -19 -4 -8 22 6 15 15 33 19
+						38 13 19 -7 47 -44 60 -41 14 -49 3 -25 -35 7 -10 9 -22 5 -26 -4 -4 -56 -8
+						-116 -8 -92 -1 -105 -3 -90 -14 11 -7 23 -11 28 -7 5 3 12 1 16 -5 3 -5 24
+						-10 47 -10 38 0 40 -1 34 -25 -6 -23 -4 -25 29 -25 20 0 45 5 57 11 27 14 35
+						3 14 -19 -9 -11 -18 -36 -20 -58 -5 -51 -15 -74 -32 -74 -8 0 -14 -5 -14 -11
+						0 -11 16 -9 53 6 14 6 17 2 17 -26 0 -19 3 -44 6 -57 l6 -22 374 0 374 0 -1
+						33 c0 17 -4 80 -8 139 -7 104 -8 109 -39 136 -36 33 -81 125 -52 107 13 -8 13
+						-3 -11 90 -11 44 -21 94 -23 110 -10 94 -42 245 -61 290 -8 17 -19 53 -25 80
+						-19 83 -61 195 -91 243 -16 25 -29 51 -29 57 0 18 -61 96 -71 90 -5 -4 -6 0
+						-3 8 5 15 -21 31 -36 22 -4 -3 -7 3 -6 12 0 9 -10 23 -24 30 -14 7 -21 13 -16
+						13 5 0 -3 9 -17 20 -24 19 -40 20 -294 19 l-269 0 -45 -59z"/>
+						<path d="M685 782 c-28 -20 -39 -50 -45 -124 -5 -60 -4 -88 6 -107 8 -14 14
+						-32 14 -38 0 -7 9 -13 19 -13 15 0 31 -18 31 -35 0 -1 -13 -5 -29 -7 -17 -2
+						-28 -1 -25 4 3 4 -1 8 -9 8 -14 0 -43 -27 -36 -34 11 -9 69 -14 69 -6 0 5 12
+						15 28 22 25 13 27 17 28 83 1 65 -11 137 -26 160 -4 6 -5 29 -4 53 3 41 -1 49
+						-21 34z"/>
+					</g>
+				</svg>
+			</div>
+		</div>
+	</div>
+	<div class="page home large-12 columns">
+		<h2>about me</h2>
+		<div class="about-container large-12 columns">
+			<p>First and foremost, I'm an advocate for the user,  passionate about simple and effective interaction.</p>
+			<p>I earned my B.ASc. in Management Engineering at the University of Waterloo. The global internship program allowed me to gain over 2 years of professional experience in various roles and industries as my experience and passions evolved.</p>
+			<p>Upon graduation I began working alongside the bright and talented UIUX team at SugarCRM where I played a key role in ensuring consistency of design and patterns for usability in the Sugar 7 product through in-depth reviews and testing. In addition, I enhanced my creative skills through future feature designs and re-designs, and got my hands dirty doing some development.</p>
+			<p>Currently I am working on a usability testing project freelance while I seek my next challenge</p>
+		</div>
+		<h2>work samples</h2>
+		<div class="portfolio-container large-12 columns">
+			<div class="portfolio-name large-12 columns">
+				<h3>SugarCRM (2012-2014)</h3>
+			</div>
+			<div class="feature flows large-5 medium-6 columns">
+				<h4>Merge Feature Redesign Flow</h4>
+				<div class="portfolio">
+					<a class="fancybox first" rel="grp1" href="assets/mergeflow/1a-List.png" title="Merge Flow: Select records">
+						<img class="thumbnail" src="assets/mergeflow/1a-List.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp1" href="assets/mergeflow/2a-List_Merge.png" title="Merge Flow: Merge selected records">
+						<img class="thumbnail" src="assets/mergeflow/2a-List_Merge.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp1" href="assets/mergeflow/3a-Merge_primary.png" title="Merge Flow: Merging 5 records">
+						<img class="thumbnail" src="assets/mergeflow/3a-Merge_primary.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp1" href="assets/mergeflow/3a-Merge_primarychanging.png" title="Merge Flow: Switch primary record">
+						<img class="thumbnail" src="assets/mergeflow/3a-Merge_primarychanging.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp1" href="assets/mergeflow/3b-Merge_preview.png" title="Merge Flow: Preview primary record">
+						<img class="thumbnail" src="assets/mergeflow/3b-Merge_preview.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp1" href="assets/mergeflow/3b-Merge_expanded.png" title="Merge Flow: Expanded view">
+						<img class="thumbnail" src="assets/mergeflow/3b-Merge_expanded.png" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="ad-hoc large-7 medium-6 small-12 columns">
+				<div class="portfolio large-4 medium-4 columns">
+					<h4>Sub-Menus</h4>
+					<a class="fancybox" rel="grp9" href="assets/sub-menu/action-dropdown.png" title="Sub-menu: new design, patterns and consistency">
+						<img class="thumbnail" src="assets/sub-menu/action-dropdown.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp9" href="assets/sub-menu/action-dropdown-download.png" title="Sub-menu: new design, patterns and consistency">
+						<img class="thumbnail" src="assets/sub-menu/action-dropdown-download.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp9" href="assets/sub-menu/action-dropdown-download-drawer.png" title="Sub-menu: new design, patterns and consistency">
+						<img class="thumbnail" src="assets/sub-menu/action-dropdown-download-drawer.png" alt="" />
+					</a>
+				</div>
+				<div class="portfolio large-4 medium-4 columns">
+					<h4>Dashlets</h4>
+					<a class="fancybox" rel="grp8" href="assets/Dashlets/dashlet-tasks-label.png" title="Dashlets: Active Tasks; Overdue label">
+						<img class="thumbnail" src="assets/Dashlets/dashlet-tasks-label.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp8" href="assets/Dashlets/dashlet-case-summary.png" title="Dashlets: Case Summary; Time facet dropdown">
+						<img class="thumbnail" src="assets/Dashlets/dashlet-case-summary.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp8" href="assets/Dashlets/dashlet-oppty-metrics.png" title="Dashlets: Opportunities Metrics; Time facet dropdown">
+						<img class="thumbnail" src="assets/Dashlets/dashlet-oppty-metrics.png" alt="" />
+					</a>
+				</div>
+				<div class="portfolio large-4 medium-4 columns">
+					<h4>UX Lab Banner</h4>
+					<a class="fancybox" rel="grp10" href="assets/uxLab/logo-red.png" title="uxLab: Logo design red">
+						<img class="thumbnail" src="assets/uxLab/logo-red.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp10" href="assets/uxLab/logo-black-cube.png" title="uxLab: Logo design red">
+						<img class="thumbnail" src="assets/uxLab/logo-black-cube.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp10" href="assets/uxLab/banner.png" title="uxLab: Logo design red">
+						<img class="thumbnail" src="assets/uxLab/banner.png" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio-container large-12 columns">
+			<div class="portfolio-name large-12 columns">
+				<h3>Scribd: User Profile (2014)</h3>
+			</div>
+			<div class="ad-hoc large-8 small-12 columns">
+				<h4>Desktop</h4>
+				<a class="fancybox first" rel="grp11" href="assets/scribd/Desktop.png" title="Scribd: User Profile Desktop">
+					<img class="thumbnail" src="assets/scribd/Desktop.png" alt="" />
+				</a>
+			</div>
+			<div class="ad-hoc large-4 small-12 columns">
+				<h4>Mobile</h4>
+				<a class="fancybox first" rel="grp11" href="assets/scribd/Mobile.png" title="Scribd: User Profile Mobile">
+					<img class="thumbnail" src="assets/scribd/Mobile.png" alt="" />
+				</a>
+			</div>
+		</div>
+		<div class="portfolio-container large-12 columns">
+			<div class="portfolio-name large-12 columns">
+				<h3>Goals++ (2013)</h3>
+				<h4>Mobile: Wireframes, Mockups</h4>
+			</div>
+			<div class="flows large-12 columns">
+				<div class="portfolio large-12 columns">
+					<a class="fancybox first" rel="grp2" href="assets/fydp/wireframes/NewGoal.PNG" title="Wireframes: New Goal">
+						<img class="thumbnail" src="assets/fydp/wireframes/NewGoal.PNG" alt="" />
+					</a>
+					<a class="fancybox" rel="grp2" href="assets/fydp/wireframes/NewGoal_Enter.PNG" title="Wireframes: New Goal">
+						<img class="thumbnail" src="assets/fydp/wireframes/NewGoal_Enter.PNG" alt="" />
+					</a>
+					<a class="fancybox" rel="grp2" href="assets/fydp/wireframes/NewGoal_dropdown.PNG" title="Wireframes: New Goal">
+						<img class="thumbnail" src="assets/fydp/wireframes/NewGoal_dropdown.PNG" alt="" />
+					</a>
+					<a class="fancybox" rel="grp2" href="assets/fydp/wireframes/NewGoal_Milestones.PNG" title="Wireframes: New Goal">
+						<img class="thumbnail" src="assets/fydp/wireframes/NewGoal_Milestones.PNG" alt="" />
+					</a>
+					<a class="fancybox" rel="grp2" href="assets/fydp/wireframes/NewGoal_Milestones_add.PNG" title="Wireframes: New Goal">
+						<img class="thumbnail" src="assets/fydp/wireframes/NewGoal_Milestones_add.PNG" alt="" />
+					</a>
+					<a class="fancybox" rel="grp2" href="assets/fydp/wireframes/NewGoal_Milestones_Midterm.PNG" title="Wireframes: New Goal">
+						<img class="thumbnail" src="assets/fydp/wireframes/NewGoal_Milestones_Midterm.PNG" alt="" />
+					</a>
+					<a class="fancybox" rel="grp2" href="assets/fydp/wireframes/NewGoal_Milestones_Calendar.PNG" title="Wireframes: New Goal">
+						<img class="thumbnail" src="assets/fydp/wireframes/NewGoal_Milestones_Calendar.PNG" alt="" />
+					</a>
+					<a class="fancybox" rel="grp2" href="assets/fydp/wireframes/NewGoal_Milestones_edit.PNG" title="Wireframes: New Goal">
+						<img class="thumbnail" src="assets/fydp/wireframes/NewGoal_Milestones_edit.PNG" alt="" />
+					</a>
+					<a class="fancybox" rel="grp2" href="assets/fydp/wireframes/NewGoal_Risks.PNG" title="Wireframes: New Goal">
+						<img class="thumbnail" src="assets/fydp/wireframes/NewGoal_Risks.PNG" alt="" />
+					</a>
+					<a class="fancybox" rel="grp2" href="assets/fydp/wireframes/NewGoal_Risk_add.PNG" title="Wireframes: New Goal">
+						<img class="thumbnail" src="assets/fydp/wireframes/NewGoal_Risk_add.PNG" alt="" />
+					</a>
+					<a class="fancybox" rel="grp2" href="assets/fydp/wireframes/NewGoal_Task.PNG" title="Wireframes: New Goal">
+						<img class="thumbnail" src="assets/fydp/wireframes/NewGoal_Task.PNG" alt="" />
+					</a>
+					<a class="fancybox" rel="grp2" href="assets/fydp/wireframes/TrackGoal_main.PNG" title="Wireframes: New Goal">
+						<img class="thumbnail" src="assets/fydp/wireframes/TrackGoal_main.PNG" alt="" />
+					</a>
+					<a class="fancybox" rel="grp2" href="assets/fydp/wireframes/TrackGoal_milestone.PNG" title="Wireframes: New Goal">
+						<img class="thumbnail" src="assets/fydp/wireframes/TrackGoal_milestone.PNG" alt="" />
+					</a>
+					<a class="fancybox" rel="grp2" href="assets/fydp/wireframes/TrackGoal_updatemile.PNG" title="Wireframes: New Goal">
+						<img class="thumbnail" src="assets/fydp/wireframes/TrackGoal_updatemile.PNG" alt="" />
+					</a>
+					<a class="fancybox" rel="grp2" href="assets/fydp/wireframes/TrackGoal_updatetask.PNG" title="Wireframes: New Goal">
+						<img class="thumbnail" src="assets/fydp/wireframes/TrackGoal_updatetask.PNG" alt="" />
+					</a>
+					<a class="fancybox" rel="grp2" href="assets/fydp/wireframes/TrackGoal_message.PNG" title="Wireframes: New Goal">
+						<img class="thumbnail" src="assets/fydp/wireframes/TrackGoal_message.PNG" alt="" />
+					</a>
 
-<div id="contact">Management Engineering Graduate, University of Waterloo</div>
-<div class="mylink"><a href="mailto:florence.acevedo@gmail.com">florence.acevedo@gmail.com</a></div>
-<div class="section">
-<h2>summary of qualifications</h2>
-<ul>
-<li>Passionate about user experience with a strong focus on user-centric, data-driven design as practiced in current UX/UI role</li><br>
-<li>Strong product management capabilities encompassing the product life cycle from requirement gathering and competitive analysis to feature priotritization and market positioning</li><br>
+					<a class="fancybox first" rel="grp3" href="assets/fydp/Mockups/Main/Main.png" title="Mockups: Home">
+						<img class="thumbnail" src="assets/fydp/Mockups/Main/Main.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp3" href="assets/fydp/Mockups/Main/Main2.png" title="Mockups: Menu">
+						<img class="thumbnail" src="assets/fydp/Mockups/Main/Main2.png" alt="" />
+					</a>
 
-<li>Effective decision-making, teamwork and leadership abilities conducive to a team environment</li><br>
+					<a class="fancybox first" rel="grp4" href="assets/fydp/Mockups/Coach-Selection/1-Coach-Selection.png" title="Mockups: Coach Selection Survey">
+						<img class="thumbnail" src="assets/fydp/Mockups/Coach-Selection/1-Coach-Selection.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp4" href="assets/fydp/Mockups/Coach-Selection/2-Coach-Selection_Submit.png" title="Mockups: Coach Selection Survey Submit">
+						<img class="thumbnail" src="assets/fydp/Mockups/Coach-Selection/2-Coach-Selection_Submit.png" alt="" />
+					</a>
+					<a class="fancybox first" rel="grp5" href="assets/fydp/Mockups/Set-Goal/1-NewGoal2.png" title="Mockups: New Goal">
+						<img class="thumbnail" src="assets/fydp/Mockups/Set-Goal/1-NewGoal2.png" alt="" />
+					</a>	
+					<a class="fancybox" rel="grp5" href="assets/fydp/Mockups/Set-Goal/2-NewGoal2.png" title="Mockups: New Goal">
+						<img class="thumbnail" src="assets/fydp/Mockups/Set-Goal/2-NewGoal2.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp5" href="assets/fydp/Mockups/Set-Goal/3-NewGoal3.png" title="Mockups: New Goal">
+						<img class="thumbnail" src="assets/fydp/Mockups/Set-Goal/3-NewGoal3.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp5" href="assets/fydp/Mockups/Set-Goal/5-NewGoal5.png" title="Mockups: New Goal">
+						<img class="thumbnail" src="assets/fydp/Mockups/Set-Goal/5-NewGoal5.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp5" href="assets/fydp/Mockups/Set-Goal/6-NewGoal_Risks.png" title="Mockups: New Goal">
+						<img class="thumbnail" src="assets/fydp/Mockups/Set-Goal/6-NewGoal_Risks.png" alt="" />
+					</a>
+					<a class="fancybox first" rel="grp6" href="assets/fydp/Mockups/Track-Goals/1-TrackGoals_Main.png" title="Mockups: New Goal">
+						<img class="thumbnail" src="assets/fydp/Mockups/Track-Goals/1-TrackGoals_Main.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp6" href="assets/fydp/Mockups/Track-Goals/2-TrackGoals_Update.png" title="Mockups: New Goal">
+						<img class="thumbnail" src="assets/fydp/Mockups/Track-Goals/2-TrackGoals_Update.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp6" href="assets/fydp/Mockups/Track-Goals/3a-TrackGoal_Prom.png" title="Mockups: New Goal">
+						<img class="thumbnail" src="assets/fydp/Mockups/Track-Goals/3a-TrackGoal_Prom.png" alt="" />
+					</a>
+					<a class="fancybox" rel="grp6" href="assets/fydp/Mockups/Track-Goals/3b-TrackGoals_Prev.png" title="Mockups: New Goal">
+						<img class="thumbnail" src="assets/fydp/Mockups/Track-Goals/3b-TrackGoals_Prev.png" alt="" />
+					</a>
+					<a class="fancybox first" rel="grp7" href="assets/fydp/Mockups/Progress/Progress.png" title="Mockups: Progress">
+						<img class="thumbnail" src="assets/fydp/Mockups/Progress/Progress.png" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="page resume large-12 columns">
+		<h1>Product &amp; User Experience Designer</h1>
+		<div id="title">B.ASc., Management Engineering, University of Waterloo</div>
+		<div class="section large-12 columns">
+		<h2>summary of qualifications</h2>
+		<ul id="summary">
+			<li>Passionate about user experience with a strong focus on user-centric, data-driven design as practiced in current UX/UI role</li>
+			<li>Strong product management capabilities encompassing the product life cycle from requirement gathering and competitive analysis to feature priotritization and market positioning</li>
+			<li>Effective decision-making, teamwork and leadership abilities conducive to a team environment</li>
+			<li>Creative problem-solving skills utilized to devise viable solutions under given constraints</li>
+			<li>Adept time-management and organizational skills</li>
+		</ul>
+		</div>
+		<div class="section large-12 columns">
+			<h2>work experience</h2>
+			<div class="inner-container large-12 columns">
+				<div class="large-4 medium-4 columns">
+					<div class="role large-12 columns">
+						<h3><span id="role">UX Designer/UI Developer</span></h3>
+					</div>
+					<h3><span id="company">SugarCRM</span></h3>
+					<h3>Cupertino, CA</h3>
+					<h3><span id="date">Jul 2013 - Aug 2014</span></h3>
+				</div>
+				<div class="large-8 medium-8 columns">
+					<ul>
+					    <li>Redesigning legacy UI and flows to create clean, simple interfaces and streamlined interactions for the user</li>
+					    <li>Actively engaged with engineering and product teams to bring user experience to the forefront of design and implementation, ensuring consistency accross the application, providing mockups and styleguide enhancement for developers</li>
+					    <li>Regularly involved in the design, distribution and analysis of usability tests; actively expanding and enhancing the implementation of Google Analytics throughout to gain valuable insight for continual design improvement</li>
+					</ul>
+				</div>
+			</div>
+			<div class="inner-container large-12 columns">
+				<div class="large-4 medium-4 columns">
+					<div class="role large-12 columns">
+						<h3><span id="role">UX Intern</span></h3>
+					</div>
+					<h3><span id="company">SugarCRM</span></h3>
+					<h3>Cupertino, CA</h3>
+					<h3><span id="date">Aug 2012 - Dec 2012</span></h3>
+				</div>
+				<div class="large-8 medium-8 columns">
+					<ul>
+						<li>Built comprehensive interaction flows for enhancement of future product releases</li>
+						<li>Designed and implemented usability tests through use of rapid prototypes</li> 
+					</ul>
+				</div>
+			</div>
+			<div class="inner-container large-12 columns">
+				<div class="large-4 medium-4 columns">
+					<div class="role large-12 columns">
+						<h3><span id="role">Product Manager Intern</span></h3>
+					</div>
+					<h3><span id="company">NexJ Systems</span></h3>
+					<h3>Toronto, ON</h3>
+					<h3><span id="date">Jan 2012 - Apr 2012</span></h3>
+				</div>
+				<div class="large-8 medium-8 columns">
+					<ul>
+						<li>Delivered User-Centred Functional Designs for the mobile product through gathering key use cases and high-level requirements, and development of application feature workflows and screen mock-ups</li>
+						<li>Developed a Usability and Styling Guidelines document with a team through the establishmet of usable screen layout patterns and styling implementation rules</li>
 
-<li>Creative problem-solving skills utilized to devise viable solutions under given constraints</li><br>
-<li>Adept time-management and organizational skills</li>
+						<li>Designed a high-level strategy for the creation of an ad selection algorithm to be utalized in the company's health product based on research and competitor best practices</li>
+					</ul>
+				</div>
+			</div>
+			<div class="inner-container large-12 columns">
+				<div class="large-4 medium-4 columns">
+					<div class="role large-12 columns">
+						<h3><span id="role">Project Control Officer/Business Analyst Intern</span></h3>
+					</div>
+					<h3><span id="company">CGI</span></h3>
+					<h3>Markham, ON</h3>
+					<h3><span id="date">Apr 2011 - Aug 2011</span></h3>
+				</div>
+				<div class="large-8 medium-8 columns">
+					<ul>
+						<li>Provided assistance managing and co-ordinating major project deliverables including Architectural Design Blueprints and Readiness Assessments; Collaborated with the quality assurance team and synchronized technical and busines architects</li>
+						<li>Directed and co-ordinated brain storming sessions with key resources to collect and organize data to produce Lessons Learned documentation for the Design phase of the project</li>
+						<li>Facilitated design requirement meetings, summarized, analyzed and verified project action items, decisions and risks for logging and tracking through HP Quality Centre</li>
+						<li>Responsible for account provisioning, permissions management and documentation maintenance on the project's SharePoint site</li>
+					</ul>
+				</div>
+			</div>
+			<div class="inner-container large-12 columns">
+				<div class="large-4 medium-4 columns">
+					<div class="role large-12 columns">
+						<h3><span id="role">Business Analyst Intern</span></h3>
+					</div>
+					<h3><span id="company">Cancer Care Ontario</span></h3>
+					<h3>Toronto, ON</h3>
+					<h3><span id="date">Sep 2010 - Dec 2010</span></h3>
+				</div>
+				<div class="large-8 medium-8 columns">
+					<ul>
+						<li>Managed small projects which aligned to business requirements and departmental milestones</li>
+						<li>Worked with senior executives to develop a Business Intelligence roadmap</li>
+						<li>Provided engaging demonstrations to external stakeholders illustrating basic and advanced functionality of iPortTM Access, a Business Intelligence tool</li>
+						<li>Designed and implemented iPortTM Access user survey and analyzed results in order to make recommendations regarding further development and improvement</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="section large-12 columns">
+		<h2>education</h2>
+			<h4><span id="company">Honours Bachelor of Applied Science</span>, Management Engineering, Co-op, University of Waterloo, Ontario, 2007-2013</h4>
+			<div class="projects large-12 columns">
+				<h3>Relevant Projects:</h3>
+				<div class="inner-container large-12 columns">
+					<span id="company">Fourth-Year Design Project, Goals++</span>
+					<ul>
+						<li>Extensive Behaviour Science Research in the area of Motivation theory and application as well as gamification</li>
+						<li>Competitive Analysis included critical assessments of tools including MyFitnessPal and Stickk.com using criterium defined in research phase</li>
+						<li>Plan and Requirements Review included definition of Scope and Specifications</li>
+						<li>Conceptual Design and Review Presented to Review Comittee for design buy-in</li>
+						<li>Motivation Goal-Setting tool pending development in 2013</li>
+					</ul>
+				</div>
+				<div class="inner-container large-12 columns">
+					<span id="company">Human-Computer Interaction, Design of an Educational table-top interface for Interactive Education of Kindergarten Students</span>
+					<ul>
+						<li>Developed a user-centred design for the enrichment of educational activities using multi-touch capabilities on a table-top interface</li>
+						<li>Created several low-fi, medium-fi and, finally a high fidelity prototype of the system through a vertical approach</li>
+						<li>Project selected by professor to be demonstrated to visiting members of the Canadian Engineering Accreditation Board</li>
+					</ul>
+				</div>
+				<div class="inner-container large-12 columns">
+					<span id="company">Information Systems Development, "Automated Parent-Teacher Interview Scheduling System"</span>
+					<ul>
+						<li>Managed project through risk analysis and assessment, user and system requirements gathering and development as well as critical path scheduling </li>
+						<li>Created conceptual design including Data Flow and Entity Relationship diagrams normalized through 3NF method</li>
+						<li>Designed prototype using PHP and MS Access to create the user interface and back-end structure and database</li>
+					</ul>
+				</div>
+				<div class="inner-container large-12 columns">
+					<span id="company">Operations Analysis, "A Newspaper Delivery System for the Iron Warrior"</span>
+					<ul>
+						<li>Gathered requirements from the Editor in Chief, members of the Iron Warrior as well as the student body</li>
+						<li>Created an optimal route system by modeling and solutioning a Travelling Salesman Problem</li>
+						<li>Forecasted for the seasonal needs of newspapers at each of the 52 locations accross campus</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="section large-12 columns">
+			<h2>awards &amp; achievements</h2>
+			<ul>
+				<li>Competed and placed in the Hong Kong Club Crew World Championships 2012</li>
 
+				<li>University of Waterloo Entrance Scholarship</li>
+				<li>Queen Elizabeth II Aiming for the Top Scholarship</li>
+				<li>Ontario Scholar Award</li>	
+			</ul>
+		</div>
+		<div class="section large-12 columns">
+			<h2>volunteer experience</h2>
+			<div class="large-12 columns">
+				<div class="large-4 medium-4 columns">
+					<div class="role large-12 columns">
+						<h3>Orientation Leader</h3>
+					</div>
+					<h3><span id="company">University of Waterloo</span></h3>
+					<h3>Waterloo, ON</h3>
+					<h3><span id="date">Sep 2008 - Sep 2011</span></h3>
+				</div>
+				<div class="large-8 medium-8 columns">
+					<ul>
+						<li>Marshalled 120 new engineering students over a six day period through use of leadership skills</li>
+						<li>Registered new students for the week while managing the registration booth; provided valuable advice and information via the "Ask Me" post</li>
+					</ul>
+				</div>
+			</div>
+			<div class="large-12 columns">
+				<div class="large-4 medium-4 columns">
+					<div class="role large-12 columns">
+						<h3>Class Representative</h3>
+					</div>
+					<h3><span id="company">Waterloo Engineering Endowment Fund</span></h3>
+					<h3>Waterloo, ON</h3>
+					<h3><span id="date">Jan 2008 - Apr 2013</span></h3>
+				</div>
+				<div class="large-8 medium-8 columns">
+					<ul>
+						<li>Collect class opinions and feedback regarding areas of interest to persue for funding opportunities</li>
 
-</ul>
-</div>
-<div class="section">
-<h2>work experience</h2>
-<div class="content">
-<span class="date">jul 2013 → present</span>
-<h3>UX Designer/UI Developer</h3>
-<address>SugarCRM, 10050 North Wolfe Road, Cupertino, CA 95014</address>
-<ul>
-    <li>Redesigning legacy UI and flows to create clean, simple interfaces and streamlined interactions for the user</li>
-    <li>Actively engaged with engineering and product teams to bring user experience to the forefront of design and implementation, ensuring consistency accross the application, providing mockups and styleguide enhancement for developers</li>
-    <li>Regularly involved in the design, distribution and analysis of usability tests; actively expanding and enhancing the implementation of Google Analytics throughout to gain valuable insight for continual design improvement</li>
-</ul>
-<span class="date">aug 2012 → dec 2012</span>
-
-<h3>UX Intern</h3>
-<address>SugarCRM, 10050 North Wolfe Road, Cupertino, CA 95014</address>
-<ul>
-<li>Built comprehensive interaction flows for enhancement of future product releases</li>
-<li>Designed and implemented usability tests through use of rapid prototypes</li> </ul>
-
-<span class="date">jan 2012 → apr 2012</span>
-
-
-<h3>Product Manager Intern</h3>
-<address>NexJ Systems, 10 York Mills Road, Toronto, ON M2P 2E5</address>
-
-<ul>
-
-<li>Delivered User-Centred Functional Designs for the mobile product through gathering key use cases and high-level requirements, and development of application feature workflows and screen mock-ups</li>
-<li>Developed a Usability and Styling Guidelines document with a team through the establishmet of usable screen layout patterns and styling implementation rules</li>
-
-<li>Designed a high-level strategy for the creation of an ad selection algorithm to be utalized in the company's health product based on research and competitor best practices</li>
-
-</ul>
-<span class="date">apr 2011
-→ aug 2011</span>
-
-<h3>Project Control Officer/Business Analyst Intern</h3>
-<address>CGI, 150 Commerce Valley Drive, Markham Ontario</address>
-
-<ul>
-
-<li>Provided assistance managing and co-ordinating major project deliverables including Architectural Design Blueprints and Readiness Assessments; Collaborated with the quality assurance team and synchronized technical and busines architects</li>
-<li>Directed and co-ordinated brain storming sessions with key resources to collect and organize data to produce Lessons Learned documentation for the Design phase of the project</li>
-<li>Facilitated design requirement meetings, summarized, analyzed and verified project action items, decisions and risks for logging and tracking through HP Quality Centre</li>
-<li>Responsible for account provisioning, permissions management and documentation maintenance on the project's SharePoint site</li>
-
-</ul>
-
-<span class="date">sep 2010 → dec 2010</span>
-
-<h3>Business Analyst Intern</h3>
-<address>Cancer Care Ontario, 505 University Avenue, Toronto Ontario</address>
-
-<ul>
-
-<li>Managed small projects which aligned to business requirements and departmental milestones</li>
-<li>Worked with senior executives to develop a Business Intelligence roadmap</li>
-<li>Provided engaging demonstrations to external stakeholders illustrating basic and advanced functionality of iPortTM Access, a Business Intelligence tool</li>
-<li>Designed and implemented iPortTM Access user survey and analyzed results in order to make recommendations regarding further development and improvement</li>
-</ul>
-<!--<span class="date">jan 2010 → apr 2010</span>
-<h3>Security Analyst Intern</h3>
-<address>Shoppers Drug Mart, 2901 Sheppard Ave E, Toronto Ontario</address>
-
-<span class="date">may 2009 → sep 2009</span>
-<h3>Resource Planner Intern</h3>
-<address>Ontario Lottery and Gaming Corporation, Toronto Ontario</address>
-
-<span class="date">may 2008 → sep 2008</span>
-<h3>Programmer Analyst Intern</h3>
-<address>Sears IT, Toronto Ontario</address>-->
-
-
-</div>
-</div>
-<div class="section">
-<h2>education</h2>
-<ul>
-
-<li>Honours Bachelor of Applied Science, Management Engineering, Co-op, University of Waterloo, Ontario, 2007-2013</li>
-<li style="list-style: none">
-<br>
-Relevant Projects:
-<br><br>
-<ul>
-<li>Fourth-Year Design Project, Goals++<br>
-<br>
-<ul>
-<li>Extensive Behaviour Science Research in the area of Motivation theory and application as well as gamification</li>
-<li>Competitive Analysis included critical assessments of tools including MyFitnessPal and Stickk.com using criterium defined in research phase</li>
-<li>Plan and Requirements Review included definition of Scope and Specifications</li>
-<li>Conceptual Design and Review Presented to Review Comittee for design buy-in</li>
-<li>Motivation Goal-Setting tool pending development in 2013</li>
-</ul>
-</li>
-<br>
-<li>Human-Computer Interaction, Design of an Educational table-top interface for Interactive Education of Kindergarten Students<br>
-<br>
-<ul>
-<li>Developed a user-centred design for the enrichment of educational activities using multi-touch capabilities on a table-top interface</li>
-<li>Created several low-fi, medium-fi and, finally a high fidelity prototype of the system through a vertical approach</li>
-<li>Project selected by professor to be demonstrated to visiting members of the Canadian Engineering Accreditation Board</li>
-</ul></li><br>
-
-<li>Information Systems Development, "Automated Parent-Teacher Interview Scheduling System"<br>
-
-<br>
-<ul>
-
-<li>Managed project through risk analysis and assessment, user and system requirements gathering and development as well as critical path scheduling </li>
-<li>Created conceptual design including Data Flow and Entity Relationship diagrams normalized through 3NF method</li>
-<li>Designed prototype using PHP and MS Access to create the user interface and back-end structure and database</li>
-
-
-</ul></li><br>
-
-<li>Operations Analysis, "A Newspaper Delivery System for the Iron Warrior"<br>
-
-<br>
-<ul>
-
-<li>Gathered requirements from the Editor in Chief, members of the Iron Warrior as well as the student body</li>
-<li>Created an optimal route system by modeling and solutioning a Travelling Salesman Problem</li>
-<li>Forecasted for the seasonal needs of newspapers at each of the 52 locations accross campus</li>
-</ul>
-</li></ul></li></ul></div>
-<div class="section">
-<h2>awards &amp; achievements</h2>
-<ul>
-<li>Competed and placed in the Hong Kong Club Crew World Championships 2012</li>
-
-<li>University of Waterloo Entrance Scholarship</li>
-<li>Queen Elizabeth II Aiming for the Top Scholarship</li>
-<li>Ontario Scholar Award</li>
-
-
-</ul>
-</div>
-<div class="section">
-<h2>volunteer experience</h2>
-
-<div class="content"><span class="date"> sep 2008 → sep 2011</span>
-<h3>Orientation Leader</h3>
-<address>University of Waterloo</address>
-<ul>
-<li>Marshalled 120 new engineering students over a six day period through use of leadership skills</li>
-
-<!--<li>Enthused team of students throughout a myriad of competitive activities</li>-->
-
-<li>Registered new students for the week while managing the registration booth; provided valuable advice and information via the "Ask Me" post</li>
-</ul>
-<span class="date">jan 2008 → apr 2013</span>
-<h3>Class Representative</h3>
-<address>Waterloo Engineering Endowment Fund, University of Waterloo</address>
-<ul>
-<li>Collect class opinions and feedback regarding areas of interest to persue for funding opportunities</li>
-
-<li>Objectively allocate money to projects that enhance the undergraduate education program</li>
-
-</ul>
-
-
-</div>
-</div>
-
-<div class="section">
-<h2>activities</h2>
-<ul>
-<li>Working to become a unicorn</li>
-<li>Enjoy sports, performing arts, music, and travel</li>
-</ul>
-</div>
-
-
-
-</body></html>
+						<li>Objectively allocate money to projects that enhance the undergraduate education program</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="section large-12 columns">
+			<h2>activities</h2>
+			<ul>
+				<li>Working to become a unicorn</li>
+				<li>Enjoy sports, performing arts, music, and travel</li>
+			</ul>
+		</div>
+	</div>
+</body>

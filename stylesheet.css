@@ -1,0 +1,199 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,400,300|Indie+Flower);
+
+body {
+	font-family: 'Raleway', sans-serif !important;
+}
+.header {
+	padding-left:0;
+}
+.titlebar{
+	margin-bottom:0;
+	padding-right:0;	
+}
+.titlebar .header {
+	position: absolute;
+	height: 100%;
+}
+.titlebar h1 {
+
+	line-height: 300%;
+	vertical-align: middle;
+	font-weight: 500;
+	font-family: 'Raleway', sans-serif;
+	/*color: #E72C00;*/
+}
+
+.face-container {
+	padding: 0;
+}
+
+.face {
+	max-width: 100%;
+	float: right;
+}
+
+@media (max-width: 400px){
+	.face {
+		visibility: hidden;
+	}	
+}
+
+.icon{
+	float:left;
+}
+
+.navbar{
+	position: absolute;
+	left: 0;
+	right: 10px;
+	bottom:0;
+}
+.button {
+	background-color: #046792;
+	border-color: #046792;
+}
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #046792; }
+.navbar .button {
+	margin: 0;
+}
+
+.navbar .button:not(.active) {
+	background: none;
+	color: #046792;
+}
+
+.navbar .button.active {
+	cursor: default;
+}
+
+.navbar .linkout-container {
+	z-index: 100;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.navbar .linkout-container .linkout {
+	display: inline-block;
+}
+
+/*span.icon-text{
+	font: 75% Arial,sans-serif; 
+	color:#0783B6;
+	padding-left: .2rem;
+}*/
+
+.page {
+	border-top: 3px solid #046792;
+}
+.home h3{
+	text-align:center;
+}
+/*div.linkedin{
+	vertical-align: center;
+}*/
+.about-container {
+	background-color: #afd5e5;
+	border-radius: 1em;
+	padding-top:1em;
+}
+.resume{
+	display:none;
+}
+.resume h1{
+	font-size:1.5em;
+	text-align: center;
+}
+.resume h2{
+	font-size:1.3em;
+    letter-spacing: .06em;
+	border-bottom: 1px solid #000;
+}
+.resume h3{
+	font-size:1.1em;
+	letter-spacing:-.02em;
+	margin-bottom:-.2em;
+}
+.resume h4 {
+	font-size:1.1em;
+}
+/*.resume .projects{
+
+}*/
+.resume .inner-container {
+	margin-bottom:1.5em;
+}
+.resume #company {
+	font-weight:bold;
+}
+.resume #title{
+	text-align: right;
+}
+.resume #date {
+	font-style:italic;
+	font-weight: lighter;
+}
+.resume .role {
+	background-color:#afd5e5;
+	padding-left:0;
+}
+/*.resume #role {
+	background-color:#afd5e5;
+}*/
+.resume ul#summary{
+	margin-left:2.1rem;
+}
+.resume li#relevant-projects{
+	list-style:none;
+}
+/*.button{
+	background-color:red;
+}*/
+.portfolio-container .columns {
+	padding-left:.5rem;
+	padding-right:0;
+}
+.portfolio-container {
+	border-radius:1rem;
+	background-color: #afd5e5;
+	padding: 20px 10;
+	margin-bottom:3rem;
+
+}
+.portfolio-container h4 {
+	text-align: center;
+	font-size:.8em;
+	margin-bottom:0;
+}
+.thumbnail {
+	border: .1rem solid #046792;
+	background-color: #fff;
+	border-radius:.3rem;
+	margin: .3rem;
+}
+.feature.flows .thumbnail {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*.ad-hoc {
+	background-color: #fff;
+}*/
+
+.flows .fancybox:not(.first){
+	display: none;
+}
+
+.flows .thumbnail {
+	max-width: 120px;
+}
+
+.ad-hoc .thumbnail {
+	display: inline-block;
+	/*margin: 5px;*/
+	max-width: 100%;
+}
+.adhoc .thumbnail:last-child {
+	padding-right:0;
+}

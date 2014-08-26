@@ -1,0 +1,33 @@
+.navbar{
+	height:2.5em;
+	margin:1em;
+}
+.resume{
+	display:none;
+}
+.resume h1{
+	font-size:1.5em;
+	text-align: center;
+}
+.resume h2{
+	font-size:1.3em;
+    letter-spacing: .06em;
+	border-bottom: 1px solid #000;
+}
+.resume h3{
+	font-size:1.3em;
+	letter-spacing:-.02em;
+	margin-bottom:-.2em;
+}
+.resume #title{
+	text-align: right;
+}
+.resume ul#summary{
+	margin-left:2.1rem;
+}
+.resume li#relevant-projects{
+	list-style:none;
+}
+/*.button{
+	background-color:red;
+}*/
