@@ -186,7 +186,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 .flows .thumbnail {
-	max-width: 120px;
+	max-width: 70%;
 }
 
 .ad-hoc .thumbnail {

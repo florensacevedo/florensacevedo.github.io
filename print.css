@@ -1,0 +1,15 @@
+.face svg{
+	display: none;
+}
+.button-group {
+	display:none;
+}
+.linkout a, .icon{
+	display:none;
+}
+.titlebar {
+	height:4em;
+}
+.titlebar h1 {
+	line-height: 100%;
+}
