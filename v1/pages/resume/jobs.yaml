@@ -1,0 +1,58 @@
+- company: FutureAdvisor
+  position: Product Designer
+  startDate: '2014-01-01'
+  endDate: '2016-01-01'
+  content: >
+    As the first Product Designer at FutureAdvisor, my role started out broadly as I worked towards simplifying and unifying the online user experience, creating a framework model to bring the full vision of our services to life for our clients, and building out a design team.
+
+
+    In the months prior to and following the BlackRock acquisition I led the design for partnerships within the Business Development and Implementations teams, ultimately working together with the Engineering team to create the foundation for a scalable system to make our product ready for all our partnerships.
+
+- company: SugarCRM
+  position: UX Designer & UI Developer
+  startDate: '2014-01-01'
+  endDate: '2016-01-01'
+  content: >
+   - Redesigned legacy UI and flows to create clean, simple interfaces and streamlined interactions for our users
+
+   - Actively engaged with engineering and product teams to bring user experience to the forefront of design and implementation, ensuring consistency accross the application, providing mockups and styleguide enhancement for developers
+
+   - Regularly involved in the design, distribution and analysis of usability tests; actively expanding and enhancing the implementation of Google Analytics throughout to gain valuable insight for continual design improvement
+
+- company: SugarCRM
+  position: UX Designer & UI Developer
+  subPosition: Intern
+  startDate: '2014-01-01'
+  endDate: '2016-01-01'
+  content: >
+   - Built comprehensive interaction flows for enhancement of future product releases
+
+   - Designed and implemented usability tests through use of rapid prototypes
+
+- company: CGI Group
+  position: Project Control Officer & Business Analyst
+  subPosition: Intern
+  startDate: '2014-01-01'
+  endDate: '2016-01-01'
+  content: >
+   - Provided assistance managing and co-ordinating major project deliverables including Architectural Design Blueprints and Readiness Assessments; Collaborated with the quality assurance team and synchronized technical and busines architects
+
+   - Directed and co-ordinated brain storming sessions with key resources to collect and organize data to produce Lessons Learned documentation for the Design phase of the project
+
+   - Facilitated design requirement meetings, summarized, analyzed and verified project action items, decisions and risks for logging and tracking through HP Quality Centre
+
+   - Responsible for account provisioning, permissions management and documentation maintenance on the project's SharePoint site
+
+- company: Cancer Care Ontario
+  position: Business Analyst
+  subPosition: Intern
+  startDate: '2014-01-01'
+  endDate: '2016-01-01'
+  content: >
+   - Managed small projects which aligned to business requirements and departmental milestones
+
+   - Worked with senior executives to develop a Business Intelligence roadmap
+
+   - Provided engaging demonstrations to external stakeholders illustrating basic and advanced functionality of iPortTM Access, a Business Intelligence tool
+
+   - Designed and implemented iPortTM Access user survey and analyzed results in order to make recommendations regarding further development and improvement
