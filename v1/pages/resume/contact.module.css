@@ -1,0 +1,10 @@
+@media (max-width: 750px) {
+	.contact {
+		margin-top: 0;
+	}
+	.phone {
+		display:inline-block;
+		margin-right: 15px;
+	}
+	
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './skills.module.css';
 import {
   design,
   tools,
@@ -13,17 +14,17 @@ const list = items => (
   </ul>
 );
 export default () => (
-  <div>
+  <div className={`margin-right ${styles['skills']}`}>
     <div>
-      <h2>Design Skills</h2>
+      <h3 className="margin-top margin-bottom-30">Design Skills</h3>
       {list(design)}
     </div>
     <div>
-      <h2>Tools</h2>
+      <h3 className="margin-top margin-bottom-30">Tools</h3>
       {list(tools)}
     </div>
     <div>
-      <h2>Soft Skills</h2>
+      <h3 className="margin-top margin-bottom-30">Soft Skills</h3>
       {list(soft)}
     </div>
   </div>

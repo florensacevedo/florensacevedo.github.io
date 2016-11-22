@@ -1,0 +1,85 @@
+body {
+	font-family: lato, helvetica, sans-serif ;
+	font-size: 16px;
+	color:#333333;
+}
+
+p {
+	line-height: 1.5;
+}
+
+p.large {
+	font-size: 1.125em;
+	line-height: 1.5;
+}
+
+h1 {
+	font-family: fira sans;
+	font-size: 3.75em;
+	line-height:1.25;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-family: fira sans;
+	font-size: 3em;
+	line-height: 1.25;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-family: fira sans;
+	font-size: 2.25em;
+	line-height: 1.25;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h4 {
+	font-size: 1.5em;
+	line-height: 1.25;
+	margin-top: 0;
+	margin-bottom: 0; 
+}
+
+a {
+	font-size: 1.125em;
+}
+
+.margin-top-xs {
+
+	margin-top: 5px;
+}
+.margin-top {
+	margin-top: 60px;
+}
+
+.margin-top-45 {
+	margin-top: 45px;
+}
+
+.margin-left {
+	margin-left: 90px;
+}
+
+.margin-right {
+	margin-right: 90px;
+}
+
+.margin-bottom-30 {
+	margin-bottom: 30px;
+}
+
+.margin-bottom {
+	margin-bottom: 60px;
+}
+
+.margin-top-bottom {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+
+
+

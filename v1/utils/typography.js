@@ -7,25 +7,30 @@ import CodePlugin from 'typography-plugin-code';
 const options = {
   googleFonts: [
     {
-      name: 'Montserrat',
+      name: 'Lato',
       styles: [
+        '200',
+        '300',
+        '400',
         '700',
       ],
     },
     {
-      name: 'Arvo',
+      name: 'Fira Sans',
       styles: [
+        '200',
+        '300',
         '400',
         '400i',
         '700',
       ],
     },
   ],
-  headerFontFamily: ['Montserrat', 'sans-serif'],
-  bodyFontFamily: ['Arvo', 'sans-serif'],
-  baseFontSize: '18px',
-  baseLineHeight: 1.65,
-  scale: 2.25,
+  headerFontFamily: ['Fira Sans', 'sans-serif'],
+  bodyFontFamily: ['Lato', 'sans-serif'],
+  baseFontSize: '16px',
+  baseLineHeight: 1.5,
+  //scale: 2.25,
   plugins: [
     new CodePlugin(),
   ],

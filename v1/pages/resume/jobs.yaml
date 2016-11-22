@@ -1,7 +1,7 @@
 - company: FutureAdvisor
   position: Product Designer
-  startDate: '2014-01-01'
-  endDate: '2016-01-01'
+  startDate: '2014-10-01'
+  endDate: '2016-10-01'
   content: >
     As the first Product Designer at FutureAdvisor, my role started out broadly as I worked towards simplifying and unifying the online user experience, creating a framework model to bring the full vision of our services to life for our clients, and building out a design team.
 
@@ -10,8 +10,8 @@
 
 - company: SugarCRM
   position: UX Designer & UI Developer
-  startDate: '2014-01-01'
-  endDate: '2016-01-01'
+  startDate: '2013-07-01'
+  endDate: '2014-08-01'
   content: >
    - Redesigned legacy UI and flows to create clean, simple interfaces and streamlined interactions for our users
 
@@ -22,20 +22,32 @@
 - company: SugarCRM
   position: UX Designer & UI Developer
   subPosition: Intern
-  startDate: '2014-01-01'
-  endDate: '2016-01-01'
+  startDate: '2012-08-01'
+  endDate: '2012-12-01'
   content: >
    - Built comprehensive interaction flows for enhancement of future product releases
 
    - Designed and implemented usability tests through use of rapid prototypes
 
+- company: NexJ Systems
+  position: Product Manager
+  subPosition: Intern
+  startDate: '2012-01-01'
+  endDate: '2012-04-01'
+  content: >
+   - Delivered User-Centred Functional Designs for the mobile product through gathering key use cases and high-level requirements, and development of application feature workflows and screen mock-ups
+
+   - Developed a Usability and Styling Guidelines document with a team through the establishmet of usable screen layout patterns and styling implementation rules
+
+   - Designed a high-level strategy for the creation of an ad selection algorithm to be utilized in the company's health product based on research and competitor best practices  
+
 - company: CGI Group
   position: Project Control Officer & Business Analyst
   subPosition: Intern
-  startDate: '2014-01-01'
-  endDate: '2016-01-01'
+  startDate: '2011-04-01'
+  endDate: '2011-08-01'
   content: >
-   - Provided assistance managing and co-ordinating major project deliverables including Architectural Design Blueprints and Readiness Assessments; Collaborated with the quality assurance team and synchronized technical and busines architects
+   - Provided assistance managing and co-ordinating major project deliverables including Architectural Design Blueprints and Readiness Assessments; Collaborated with the quality assurance team and synchronized technical and business architects
 
    - Directed and co-ordinated brain storming sessions with key resources to collect and organize data to produce Lessons Learned documentation for the Design phase of the project
 
@@ -46,8 +58,8 @@
 - company: Cancer Care Ontario
   position: Business Analyst
   subPosition: Intern
-  startDate: '2014-01-01'
-  endDate: '2016-01-01'
+  startDate: '2010-09-01'
+  endDate: '2010-12-01'
   content: >
    - Managed small projects which aligned to business requirements and departmental milestones
 

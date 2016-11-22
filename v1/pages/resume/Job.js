@@ -3,7 +3,7 @@ import Marked from 'marked';
 import moment from 'moment';
 import styles from './job.module.css'
 
-const formatDate = date => moment(date).format('MMM DD, YYYY');
+const formatDate = date => moment(date).format('MMM YYYY');
 
 export default ({
   company,
@@ -13,8 +13,11 @@ export default ({
   startDate,
   endDate,
 }) => (
-  <div>
-    <h1>
+  <div className="margin-left margin-top">
+    <p className={`large ${styles['date']}`}>
+      {formatDate(startDate)} - {formatDate(endDate)}
+    </p>
+    <h3>
       <span className={styles['position']}>
         {position}
       </span>
@@ -23,13 +26,10 @@ export default ({
           {subPosition}
         </span>
       )}
-    </h1>
-    <h2 className={styles['company']}>
+    </h3>
+    <h4 className={`margin-top-xs margin-bottom-30 ${styles['company']}`}>
       {company}
-    </h2>
-    <p>
-      {formatDate(startDate)} - {formatDate(endDate)}
-    </p>
+    </h4>
     {content && (
       <div dangerouslySetInnerHTML={{ __html: Marked(content) }} />
     )}

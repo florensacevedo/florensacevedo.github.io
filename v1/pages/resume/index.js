@@ -24,7 +24,7 @@ export default () => (
       <Col sm={4}>
         <Education />
         <Skills />
-        <Awards />
+        {/*<Awards />*/}
       </Col>
     </Row>
   </div>
