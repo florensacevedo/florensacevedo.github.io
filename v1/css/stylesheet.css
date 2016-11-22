@@ -2,15 +2,33 @@ body {
 	font-family: lato, helvetica, sans-serif ;
 	font-size: 16px;
 	color:#333333;
+	background-image: url(../assets/tweed.png);
+  background-repeat: repeat; 
 }
 
 p {
 	line-height: 1.5;
 }
 
-p.large {
+.large {
 	font-size: 1.125em;
 	line-height: 1.5;
+}
+
+.small {
+	font-size: 0.875em;
+}
+
+.light {
+	color: #666666;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.thin {
+	font-weight: 300;
 }
 
 h1 {
@@ -80,6 +98,33 @@ a {
 	margin-bottom: 60px;
 }
 
+.border-top {
+	border-top: 1px solid #999999;
+}
+
+.border-right {
+	border-right: 1px solid #999999;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #999999;
+}
+
+.padding-top {
+	padding-top: 60px;
+}
+
+.padding-right {
+	padding-right: 45px;
+}
+
+.padding-left {
+	padding-left: 45px;
+}
+
+.padding-bottom {
+	padding-bottom: 60px;
+}
 
 
 

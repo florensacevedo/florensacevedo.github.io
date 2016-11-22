@@ -2,9 +2,10 @@
 	.contact {
 		margin-top: 0;
 	}
+	
 	.phone {
 		display:inline-block;
-		margin-right: 15px;
+		margin-left: 15px;
 	}
 	
 }

@@ -5,6 +5,8 @@ import '../css/stylesheet.css';
 
 export default ({ children }) => (
   <Grid>
-    {children}
+    <div style={{backgroundColor:"white"}}>
+      {children}
+    </div>  
   </Grid>
 );

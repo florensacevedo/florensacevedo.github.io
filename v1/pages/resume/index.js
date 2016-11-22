@@ -8,6 +8,8 @@ import Job from './Job';
 import Education from './Education';
 import Skills from './Skills';
 import Awards from './Awards';
+import Interests from './Interests';
+import styles from './index.module.css';
 
 export default () => (
   <div>
@@ -17,14 +19,23 @@ export default () => (
     <Header />
     <Row>
       <Col sm={8}>
-        {jobs.map((job, i) => (
-          <Job key={i} {...job} />
-        ))}
-      </Col>
+        <div className={`border-right padding-right padding-bottom ${styles['border']}`}>
+          {jobs.map((job, i) => (
+            <Job key={i} {...job} />
+          ))}
+        </div>  
+      </Col> 
       <Col sm={4}>
-        <Education />
-        <Skills />
-        {/*<Awards />*/}
+        <div className={`padding-left padding-bottom ${styles['no-padding']}`}>
+          <Education />
+          <Skills />
+          {/*<Awards />*/}
+        </div>
+      </Col>
+    </Row>
+    <Row>
+      <Col sm={12}>
+        <Interests />
       </Col>
     </Row>
   </div>

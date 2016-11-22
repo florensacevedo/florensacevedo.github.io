@@ -1,22 +1,25 @@
 import React from 'react';
+import styles from './header.module.css';
 import { Row, Col } from 'react-bootstrap';
 import Contact from './Contact';
 
 export default () => (
-  <div className="margin-left">
+  <div className="border-bottom">
     <Row>
       <Col sm={8}>
-        <h1 className="margin-top">
+        <h1 className="margin-top margin-left">
           Florens Acevedo
         </h1>
       </Col>
       <Col sm={4}>
-        <Contact />
+        <div className={`padding-left margin-right ${styles['contact']}`}>
+          <Contact />
+        </div>
       </Col>
     </Row>
-    <Row className="margin-bottom">
+    <Row>
       <Col sm={8}>
-        <p className="large margin-top-45">
+        <p className="large margin-top-45 padding-right margin-bottom margin-left">
           {'I\'m an advocate for the user, passionate about simple and effective interactions. I have a special place in my heart for: behavioural science, motivation psychology, and gamification.'}
         </p>
       </Col>

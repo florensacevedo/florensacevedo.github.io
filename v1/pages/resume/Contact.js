@@ -6,10 +6,10 @@ import {
 } from './contact.yaml';
 
 export default () => (
-  <div className={`large margin-top margin-right ${styles['contact']}`}>
-    <p className={styles['phone']}>{phone}</p>
-    <a href={`mailto:${email}`}>
+  <div className={`small margin-top ${styles['contact']}`}>
+  	<a href={`mailto:${email}`}>
       {email}
     </a>
+    <p className={styles['phone']}>{phone}</p>
   </div>
 );
