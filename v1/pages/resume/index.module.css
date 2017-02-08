@@ -1,10 +1,12 @@
-@media (max-width: 750px) {
-	.border {
-		border-right: none;
-		border-bottom: 1px solid #999999;
-	}
+@media not print {
+  @media (max-width: 750px) {
+  	.border {
+  		border-right: none;
+  		border-bottom: 1px solid #999999;
+  	}
 
-	.no-padding {
-		padding-left: 0;
-	}
+  	.no-padding {
+  		padding-left: 0;
+  	}
+  }
 }

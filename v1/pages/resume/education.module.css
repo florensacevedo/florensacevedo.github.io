@@ -1,11 +1,13 @@
-@media (max-width: 750px) {
-	.education {
-		margin-left: 90px;
-	}
-}
+@media not print {
+  @media (max-width: 750px) {
+  	.education {
+  		margin-left: 90px;
+  	}
+  }
 
-.school {
-		font-weight: 300;
-		color: #030202;
-		text-transform: uppercase;
+  .school {
+  		font-weight: 300;
+  		color: #030202;
+  		text-transform: uppercase;
+  }
 }

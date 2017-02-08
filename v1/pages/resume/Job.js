@@ -12,10 +12,14 @@ const formatDate = date => moment(date).format('MMM YYYY');
     subPosition,
     startDate,
     endDate,
+    location,
   }) => (
     <div className="margin-left padding-top">
       <p className={`large ${styles['date']}`}>
         {formatDate(startDate)} - {formatDate(endDate)}
+        <span className={styles['location']}>
+          {location}
+        </span>
       </p>
       <h3>
         <span className={styles['position']}>

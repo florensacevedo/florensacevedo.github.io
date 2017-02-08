@@ -18,14 +18,14 @@ export default () => (
     />
     <Header />
     <Row>
-      <Col sm={8}>
+      <Col xs={8}>
         <div className={`border-right padding-right padding-bottom ${styles['border']}`}>
           {jobs.map((job, i) => (
             <Job key={i} {...job} />
           ))}
         </div>  
       </Col> 
-      <Col sm={4}>
+      <Col xs={4}>
         <div className={`padding-left padding-bottom ${styles['no-padding']}`}>
           <Education />
           <Skills />
@@ -34,7 +34,7 @@ export default () => (
       </Col>
     </Row>
     <Row>
-      <Col sm={12}>
+      <Col xs={12}>
         <Interests />
       </Col>
     </Row>

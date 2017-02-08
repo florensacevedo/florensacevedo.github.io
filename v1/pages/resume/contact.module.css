@@ -1,11 +1,13 @@
-@media (max-width: 750px) {
-	.contact {
-		margin-top: 0;
-	}
-	
-	.phone {
-		display:inline-block;
-		margin-left: 15px;
-	}
-	
+@media not print {
+  @media (max-width: 750px)  {
+  	.contact {
+  		margin-top: 0;
+  	}
+  	
+  	.phone {
+  		display:inline-block;
+  		margin-left: 15px;
+  	}
+  	
+  }
 }

@@ -3,11 +3,15 @@
   font-weight: 300;
   color: #030202;
 }
-.date {
+.date, .location {
   text-transform: uppercase;
   font-weight: 300;
   color: #666666;
   margin-bottom: 0;
+}
+
+.location {
+  margin-left: 5px;
 }
 
 .sub-position {
@@ -15,4 +19,3 @@
   font-weight: 300;
   color: #666666;
 }
-
