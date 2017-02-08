@@ -18,7 +18,7 @@ const formatDate = date => moment(date).format('MMM YYYY');
       <p className={`large ${styles['date']}`}>
         {formatDate(startDate)} - {formatDate(endDate)}
         <span className={styles['location']}>
-          {location}
+          {location.toString()}
         </span>
       </p>
       <h3>
@@ -37,6 +37,6 @@ const formatDate = date => moment(date).format('MMM YYYY');
       {content && (
         <div dangerouslySetInnerHTML={{ __html: Marked(content) }} />
       )}
-    </div> 
+    </div>
   );
-        
+
