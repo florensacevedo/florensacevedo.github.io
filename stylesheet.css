@@ -8,7 +8,7 @@ body {
 }
 .titlebar{
 	margin-bottom:0;
-	padding-right:0;	
+	padding-right:0;
 }
 .titlebar .header {
 	position: absolute;
@@ -35,7 +35,7 @@ body {
 @media (max-width: 400px){
 	.face {
 		visibility: hidden;
-	}	
+	}
 }
 
 .icon{
@@ -198,4 +198,16 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .adhoc .thumbnail:last-child {
 	padding-right:0;
+}
+
+.noty_message {
+	background-color: #046792;
+}
+
+.noty_close {
+	filter: brightness(0) invert(1);
+}
+
+#noty_topCenter_layout_container > li {
+	border-color: white !important;
 }
